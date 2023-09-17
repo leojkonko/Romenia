@@ -1,0 +1,15 @@
+.header {
+    z-index: $zindex-header;
+    &-logo {
+        @include linear-rfs(10rem, 15rem, 375px, 1920px, "width");
+    }
+    .menu {
+        a {
+            padding: 0.25rem 0.75rem;
+            border-radius: $border-radius-sm;
+            &.active {
+                background-color: rgba($primary, 0.1);
+            }
+        }
+    }
+}

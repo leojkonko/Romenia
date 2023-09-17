@@ -1,0 +1,135 @@
+.title-banner {
+
+    @media(min-width: 992px) {
+        width: 500px;
+    }
+}
+
+.position-up {
+    @media(min-width: 992px) {
+        margin-top: -4rem;
+    }
+
+    padding: 2rem 0rem;
+}
+
+.cidade-swiper {
+    .swiper-slide {
+        width: 280px !important;
+    }
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    color: white;
+}
+
+.img-localization {
+    top: 140px;
+    width: 110%;
+    height: 90%;
+
+    @media(max-width: 1200px) {
+        top: 227px;
+        width: 116%;
+        height: 72%;
+    }
+
+    @media(max-width: 992px) {
+        width: 180%;
+        height: 70%
+    }
+
+    @media(max-width: 576px) {
+        width: 215%;
+    }
+
+}
+
+.invest-position {
+    bottom: 10px;
+
+    @media(max-width: 1200px) {
+        bottom: 80px;
+    }
+}
+
+.banner-content {
+    @media(max-width: 992px) {
+        top: 50% !important;
+        transform: translateY(-10%);
+        z-index: 3;
+    }
+}
+
+.position-lg-absolute {
+    @media(min-width: 992px) {
+        position: absolute;
+    }
+}
+
+.column-reverse-lg {
+    @media(max-width: 992px) {
+        flex-direction: column-reverse;
+    }
+}
+
+.divider {
+    svg {
+        @media(max-width: 992px) {
+            transform: rotate(90deg);
+        }
+    }
+}
+
+.w-70-mobile {
+    @media(max-width: 992px) {
+        width: 70%;
+    }
+}
+
+.border-mobile {
+    @media(max-width: 992px) {
+        border-bottom: 1px solid #332D2D;
+    }
+}
+
+.text-depoiments {
+    font-size: 24px;
+    font-style: normal;
+    line-height: 200%;
+
+    @media (max-width: 1600px) {
+        font-size: 20px;
+    }
+
+    @media (max-width: 992px) {
+        font-size: 18px;
+    }
+
+    @media (max-width: 576px) {
+        font-size: 18px;
+    }
+}
+
+.depoiment-content-start {
+    top: 10%;
+
+    @media (max-width: 992px) {
+        top: 0%;
+    }
+}
+
+.depoiment-content-end {
+    bottom: 10%;
+
+    @media (max-width: 992px) {
+        bottom: 0%;
+    }
+}
+
+.position-relative-mobile {
+    @media (max-width: 992px) {
+        position: relative;
+    }
+}

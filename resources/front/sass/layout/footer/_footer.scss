@@ -1,0 +1,13 @@
+#footer {
+    .logo {
+        @include linear-rfs(10rem, 15rem, 375px, 1920px, "width");
+    }
+
+    .address {
+        width: 100%;
+    }
+
+    .copyright {
+        border-top: 1px solid rgba($black, 0.1);
+    }
+}

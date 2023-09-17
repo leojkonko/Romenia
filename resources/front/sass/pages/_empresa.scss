@@ -1,0 +1,13 @@
+#empresa {
+    .mvv-card {
+        .icon {
+            color: $primary;
+            @include linear-rfs(3rem, 5rem, 375px, 1920px, "max-width");
+        }
+    }
+    .gallery-wrapper {
+        @include media-breakpoint-up(lg) {
+            float: right;
+        }
+    }
+}
